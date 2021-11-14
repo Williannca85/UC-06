@@ -35,7 +35,7 @@ namespace Hotsite.Controllers
                 _logger.LogError("Error ao conectar com DB " +e.Message);
                  return Json( new {status = "ERR", mensagem = "Falha no banco de dados,"});               
             }
-                
+                //return View("Index",cad);
         }
 
     }

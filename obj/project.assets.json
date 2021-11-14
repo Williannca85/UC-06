@@ -6263,19 +6263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Philco\\.nuget\\packages\\": {}
+    "C:\\Users\\natha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Philco\\Downloads\\Willian\\SENAC - Willian\\SENAC\\UC-06\\teste2\\projetohotsite\\Hotsite.csproj",
+      "projectUniqueName": "C:\\Users\\natha\\Downloads\\Pimpo\\UC-06\\UC-06\\Hotsite.csproj",
       "projectName": "Hotsite",
-      "projectPath": "C:\\Users\\Philco\\Downloads\\Willian\\SENAC - Willian\\SENAC\\UC-06\\teste2\\projetohotsite\\Hotsite.csproj",
-      "packagesPath": "C:\\Users\\Philco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Philco\\Downloads\\Willian\\SENAC - Willian\\SENAC\\UC-06\\teste2\\projetohotsite\\obj\\",
+      "projectPath": "C:\\Users\\natha\\Downloads\\Pimpo\\UC-06\\UC-06\\Hotsite.csproj",
+      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\natha\\Downloads\\Pimpo\\UC-06\\UC-06\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Philco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -6338,7 +6338,7 @@
             "version": "[3.0.1, 3.0.1]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x86",
+            "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.0.3, 3.0.3]"
           },
           {
