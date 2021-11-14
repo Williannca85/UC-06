@@ -1,0 +1,74 @@
+﻿@model Interesse
+@{
+    ViewData["Title"] = "Hotsite";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Iniciativa Saúde da Cidade</h2>
+        <div class="pr-5 pt-2">
+             <p>
+            Texto sobre vida saudável: 
+             </p>
+            <p>
+                Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
+                at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            </p>
+            <p>
+                Texto sobre vida iniciativa: 
+            </p>    
+             <p>
+                 Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
+                at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            </p>
+        </div>
+       
+        <div class="col">
+            <div class="row">
+            <div class="col-md-10 border border-dark mx-2 px-5 py-3" id="formulario">
+                <h5>Entre em contato!:</h5>
+                <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+
+                <form method="POST" id="frmCadastro">
+                    <div class="form-group row">                        
+                        <label class="col-sm-3 col-form-label" asp-for="Nome">Nome:</label>                        
+                        <div class="col-sm-9">
+                            <input class="form-control" asp-for="Nome" id="nome" required />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label" asp-for="Email">Email:</label>                        
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" asp-for="Email" id="email"  required />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                         <label class="col-sm-3 col-form-label" asp-for="Mensagem">Mensagem: (Opcional)</label>
+                        
+                        <div class="col-sm-9">
+                            <textarea class="form-control" asp-for="Mensagem" cols="21" rows="2" id="mensagem"></textarea>
+                        </div>
+                    </div>            
+
+                    <div class="form-group row justify-content-end">
+                        <div class="col-sm-4" >
+                            <input type="submit" value="ENVIAR" id="btnSubmit"/>
+                        </div>
+                    </div>                    
+                       
+                </form>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-6 mt-4 mt-md-0">
+        <img src="~/img/image1.png.png" width="100%" />
+        <div class="col text-center">
+            <partial name="_CardLinks" />
+        </div>
+    </div>
+
+</div>
+
