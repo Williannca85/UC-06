@@ -3,6 +3,7 @@
 
 // Write your JavaScript code.
 
+//Adicição de JS no formulário informando o cadastramento ou erro no cadastro
 function Cadastrar(){
 
    // array com dados do formulario
